@@ -1,0 +1,69 @@
+body {
+    font-family: Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-size: 32px;
+}
+.calculatrice {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(240, 46, 170, 0.4);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+h2,h4 {
+    text-align: center;
+}
+.display {
+    width: 320px;
+    height: 50px;
+    background: #bbb;
+    color: #222;
+    font-size: 1.5rem;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.buttons {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    margin: 10px;
+    height: 64px;
+    width: 64px;
+    font-size: 24px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #ddd;
+}
+.operator {
+    background: #f0ad4e;
+    color: white;
+}
+.equal {
+    background: #5cb85c;
+    color: white;
+    grid-column: span 2;
+}
+.clear {
+    background: #d9534f;
+    color: white;
+    grid-column: span 2;
+}
