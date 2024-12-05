@@ -13,9 +13,15 @@ dans le fichier "main.js" existe des fonctions qui vont remplacer les opérateur
 l'arborescence des fichiers :
 
 /
+
 |--- images/tiles...
+
 |--- README.md
+
 |
+
 |--- index.html
+
 |--- style.css
+
 |--- script.js
